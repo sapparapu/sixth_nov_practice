@@ -1,4 +1,6 @@
+
 import boto40
+
 
 # Initialize a session using your AWS credentials
 ec2 = boto40.resource('ec2')
