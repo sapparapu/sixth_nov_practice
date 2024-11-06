@@ -14,6 +14,7 @@ instances = s3.create_instances(
     KeyName='your-key-pair',  # Replace with your key pair name
     SecurityGroupIds=['sg-xxxxxxxx'],  # Replace with your security group ID
     SubnetId1='subnet-xxxxxxxx',  # Replace with your subnet ID
+
 )
 
 print(f'Created instance with ID: {instances[0].id}')
