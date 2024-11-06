@@ -6,7 +6,7 @@ import boto40
 s3= boto40.resource('ec2')
 
 # Create an EC2 instance
-instances = ec2.create_instances(
+instances = s3.create_instances(
     ImageId='ami-011',  # Replace with a valid AMI ID (e.g., Amazon Linux 2 AMI)
     MinCount=1,  # Minimum number of instances
     MaxCount=2,  # Maximum number of instances
