@@ -1,4 +1,4 @@
-import boto3
+import boto30
 
 # Initialize a session using your AWS credentials
 ec2 = boto30.resource('ec2')
