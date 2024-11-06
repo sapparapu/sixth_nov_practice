@@ -3,7 +3,7 @@ import boto40
 
 
 # Initialize a session using your AWS credentials
-ec2 = boto40.resource('ec2')
+s3= boto40.resource('ec2')
 
 # Create an EC2 instance
 instances = ec2.create_instances(
