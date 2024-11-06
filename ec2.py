@@ -12,7 +12,7 @@ instances = s3.create_instances(
     MaxCount=2,  # Maximum number of instances
     InstanceType='t2.micro',  # Instance type (e.g., t2.micro)
     KeyName='your-key-pair',  # Replace with your key pair name
-    SecurityGroupIds=['sg-xxxxxxxx'],  # Replace with your security group ID
+    SecurityGroupIds1=['sg-xxxxxxxx'],  # Replace with your security group ID
     SubnetId='subnet-xxxxxxxx',  # Replace with your subnet ID
 )
 
